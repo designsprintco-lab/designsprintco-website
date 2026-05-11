@@ -1,0 +1,20 @@
+{
+  "sectionTag": "Let's Talk",
+  "headline": ["Book Your Free", "Discovery Call"],
+  "subtitle": "In 30 minutes we'll explore where you are, where you want to be, and whether The Reclaim Sprint is right for you.",
+  "contactItems": [
+    { "icon": "📍", "label": "Location", "value": "Melbourne, Australia · Remote Globally" },
+    { "icon": "📧", "label": "Email", "value": "hello@designsprintco.com" },
+    { "icon": "🌐", "label": "Website", "value": "designsprintco.com" },
+    { "icon": "🗓", "label": "Discovery Call", "value": "30 mins · No obligation · 100% free" }
+  ],
+  "formTitle": "Start Your Journey",
+  "formSubtitle": "Tell us a little about where you're at — we'll take it from there.",
+  "formNote": "No spam. No pressure. Just a genuine conversation.",
+  "interestOptions": [
+    "The Reclaim Sprint — 6 Weeks",
+    "Discovery Call First — Not Sure Yet",
+    "Corporate / Group Coaching"
+  ],
+  "web3formsKey": "YOUR_WEB3FORMS_KEY"
+}

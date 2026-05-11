@@ -1,0 +1,22 @@
+{
+  "founderInitials": "AS",
+  "founderName": "Anikesh Sasmal",
+  "founderRole": "Founder & Lead Coach, DesignSprintCo",
+  "chips": ["Wounded Healer", "The Champion", "ICG Coach", "Design Thinker", "Melbourne", "200+ Clients", "Consulting Partner"],
+  "sectionTag": "About DesignSprintCo",
+  "headline": ["We Don't Just Teach", "Transformation.", "We've Lived It."],
+  "paragraphs": [
+    "DesignSprintCo was built on a belief that professional fulfillment and personal identity are deeply intertwined. Our founder lived the paradox — outwardly successful (consulting partner, youngest to travel overseas) while privately navigating real pain.",
+    "That lived experience is our authority. We apply the rigour of design sprint methodology to the most important project you will ever work on — your life and your career."
+  ],
+  "values": [
+    { "icon": "⚡", "title": "Powerful", "description": "Every conversation moves people from where they are to where they need to be." },
+    { "icon": "🎯", "title": "Confident", "description": "We speak with certainty — not arrogance. We know the path because we have walked it ourselves." },
+    { "icon": "🔥", "title": "Leader", "description": "We lead from the front, modelling the transformation we teach." }
+  ],
+  "voiceWords": [
+    { "word": "Powerful", "description": "Your words carry weight. Every conversation moves people from where they are to where they need to be. We speak with intention — nothing is filler." },
+    { "word": "Confident", "description": "We speak with certainty — not arrogance. We know the path because we have walked it ourselves. We project unshakeable belief in our clients even before they feel it." },
+    { "word": "Leader", "description": "We don't coach from the sideline. We lead from the front, modelling the transformation we teach and inspiring people to rise to their full potential." }
+  ]
+}

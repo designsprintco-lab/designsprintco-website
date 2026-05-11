@@ -1,0 +1,47 @@
+{
+  "positioning": [
+    { "label": "For", "text": "Mid-career professionals who feel trapped in the wrong career or role" },
+    { "label": "Who", "text": "Are stuck, unfulfilled, and disconnected from their true identity" },
+    { "label": "We", "text": "Help them reclaim their identity through a structured coaching journey" },
+    { "label": "So They", "text": "Can step into a career and life they are truly proud of" }
+  ],
+  "archetype": {
+    "title": "Brand Archetype — The Wounded Healer meets The Champion",
+    "text": "Our founder has lived the paradox — outwardly successful while privately navigating real pain. That lived experience is the authority. We don't just teach transformation. We have been through it."
+  },
+  "pillars": [
+    {
+      "num": "01",
+      "pillar": "Desirability",
+      "subtitle": "The Human Why",
+      "description": "Is there a real need? We start with empathy — identifying the deep human struggle before anything else. Before strategy comes truth.",
+      "items": [
+        "Empathy mapping & values alignment",
+        "Identifying the real human struggle",
+        "Behavioural patterns & deep motivators"
+      ]
+    },
+    {
+      "num": "02",
+      "pillar": "Viability",
+      "subtitle": "The Strategic How",
+      "description": "Does it make sense? We evaluate how transformation fits within your long-term goals, values, and life strategy. Sustainable change is the only kind worth making.",
+      "items": [
+        "Long-term goal & life strategy mapping",
+        "Values alignment & resource audit",
+        "Sustainable transformation design"
+      ]
+    },
+    {
+      "num": "03",
+      "pillar": "Feasibility",
+      "subtitle": "The Real-World What",
+      "description": "Can we actually do it? We bring ideas to earth with practical roadmaps, clear actions, and real accountability. No fluff — just momentum.",
+      "items": [
+        "Practical roadmaps & clear actions",
+        "Real accountability structures",
+        "Sprint-based execution & momentum"
+      ]
+    }
+  ]
+}

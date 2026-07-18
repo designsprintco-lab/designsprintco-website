@@ -3,20 +3,18 @@
 # 2. Set Authorization callback URL to: https://YOUR-DOMAIN.pages.dev/admin/
 # 3. Copy the Client ID (NOT the secret) into app_id below
 # 4. Update repo to your GitHub username/repo-name
-# ── LOCAL DEV: uses test-repo (no login needed, data resets on refresh) ───────
-# ── BEFORE DEPLOYING: switch back to the github backend below ─────────────────
+# ── PRODUCTION ──────────────────────────────────────────────────────────────
 backend:
-  name: git-gateway
+  name: github
+  repo: designsprintco-lab/designsprintco-website
+  branch: main
+  auth_type: pkce
+  app_id: Ov23livTfA0qQESQvQHs
 
-local_backend: true
-
-# ── PRODUCTION (uncomment when deploying to Cloudflare Pages) ─────────────────
+# ── LOCAL DEV: uncomment the two lines below and comment out the block above
 # backend:
-#   name: github
-#   repo: YOUR_GITHUB_USERNAME/designsprintco-website
-#   branch: main
-#   auth_type: pkce
-#   app_id: YOUR_GITHUB_OAUTH_APP_CLIENT_ID
+#   name: git-gateway
+# local_backend: true
 
 media_folder: public/images
 public_folder: /images

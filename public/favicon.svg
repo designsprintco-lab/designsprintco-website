@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="ringGrad" x1="10" y1="10" x2="90" y2="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF4500"/>
+      <stop offset="0.5" stop-color="#FF8C00"/>
+      <stop offset="1" stop-color="#FFD700"/>
+    </linearGradient>
+    <linearGradient id="flameGrad" x1="50" y1="30" x2="50" y2="78" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFD700"/>
+      <stop offset="0.55" stop-color="#FF8C00"/>
+      <stop offset="1" stop-color="#FF4500"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="50" cy="50" r="40" fill="none" stroke="url(#ringGrad)" stroke-width="13"
+    stroke-linecap="round"
+    stroke-dasharray="219 45"
+    stroke-dashoffset="-18"
+    transform="rotate(-6 50 50)"/>
+
+  <polygon points="24,14 46,8 34,30" fill="#FF4500" transform="rotate(-6 50 50)"/>
+
+  <path fill="url(#flameGrad)" d="
+    M50 30
+    C 58 40, 62 48, 58 56
+    C 61 54, 63 50, 63 47
+    C 68 54, 70 62, 66 69
+    C 62 76, 54 79, 47 76
+    C 38 72, 34 63, 38 54
+    C 40 58, 43 60, 45 59
+    C 42 52, 42 44, 50 30
+    Z"/>
+</svg>

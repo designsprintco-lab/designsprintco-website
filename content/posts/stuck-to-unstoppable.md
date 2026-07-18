@@ -30,7 +30,7 @@ That's the identity trap.
 
 ## The Shift That Unlocks Everything
 
-The Reclaim Sprint is built around one fundamental shift: moving from a fixed identity ("I am a Finance Director") to a fluid one ("I am someone who is capable of building, leading, and creating value — in many forms").
+The True Self Unpack is built around one fundamental shift: moving from a fixed identity ("I am a Finance Director") to a fluid one ("I am someone who is capable of building, leading, and creating value — in many forms").
 
 This sounds simple. It is not easy.
 

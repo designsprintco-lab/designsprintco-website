@@ -6,7 +6,7 @@ import { getAllTestimonials } from '@/lib/content'
 
 export const metadata: Metadata = {
   title: 'Client Results',
-  description: 'Real breakthroughs from real people. Read what DesignSprintCo clients say about The Reclaim Sprint.',
+  description: 'Real breakthroughs from real people. Read what DesignSprintCo clients say about The True Self Unpack.',
 }
 
 const avatarStyles: Record<string, React.CSSProperties> = {
@@ -23,7 +23,7 @@ export default function TestimonialsPage() {
       <PageHero
         tag="Client Results"
         title="Real Breakthroughs. Real People."
-        subtitle="The Reclaim Sprint works because it's built on lived experience, not theory. Here's what our clients say."
+        subtitle="The True Self Unpack works because it's built on lived experience, not theory. Here's what our clients say."
       />
 
       <section style={{ background: 'var(--obsidian)' }}>

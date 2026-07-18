@@ -14,7 +14,7 @@
       "num": "01",
       "pillar": "Desirability",
       "subtitle": "The Human Why",
-      "description": "Is there a real need? We start with empathy — identifying the deep human struggle before anything else. Before strategy comes truth.",
+      "description": "Is there a real need? We start with empathy — identifying the deep human struggle before anything else. Grounded in your Metadynamics Profile, not guesswork.",
       "items": [
         "Empathy mapping & values alignment",
         "Identifying the real human struggle",
@@ -43,5 +43,6 @@
         "Sprint-based execution & momentum"
       ]
     }
-  ]
+  ],
+  "sessionImage": "/images/anikesh-framework-session.jpg"
 }

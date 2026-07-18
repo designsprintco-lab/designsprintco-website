@@ -1,8 +1,9 @@
 {
-  "badge": "The Reclaim Sprint",
-  "headline": ["From Stuck", "to Unstoppable.", "In 6 Weeks."],
-  "duration": "6 Weeks · 3 Focused Sprints of 2 Weeks Each · 1:1 Coaching",
-  "description": "A structured, human-centred journey designed to help mid-career professionals break through career confusion, reclaim their identity, rebuild confidence, and take decisive action toward a career and life they are proud of.",
+  "badge": "The True Self Unpack",
+  "headline": ["From Stuck", "to Unmistakably You.", "Built On Your Metadynamics Profile."],
+  "duration": "Discovery & Profiling → Values & Alignment → Integration & Action — depth over duration",
+  "description": "A structured, human-centred journey that begins with your Metadynamics Profile — a complete map of your psychological traits and values — so every session is built around who you actually are, not a generic timeline. There's no fixed number of weeks, because your transformation isn't generic either.",
+  "image": "/images/anikesh-teaching-energy.jpg",
   "forYouIf": [
     "You feel trapped in the wrong career or role",
     "You're seeking alignment between purpose and profession",
@@ -17,5 +18,5 @@
     "A practical roadmap for career or business growth",
     "A reclaimed sense of identity and pride in who you are becoming"
   ],
-  "ctaLabel": "Start Your Reclaim Sprint →"
+  "ctaLabel": "Start With Your Free Metadynamics Profile →"
 }

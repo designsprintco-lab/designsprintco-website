@@ -38,4 +38,4 @@ The answer, by the way, is no. This is not it.
 
 Readiness isn't about having a plan. It's about being willing to tell the truth — to yourself, first. If these three signs resonate, the next step isn't a strategy session. It's a conversation.
 
-That's what The Reclaim Sprint is built for.
+That's what The True Self Unpack is built for.

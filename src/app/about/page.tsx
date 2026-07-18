@@ -24,7 +24,9 @@ export default function AboutPage() {
         <AnimateIn>
           <div className="about-grid">
             <div className="about-card">
-              <div className="about-avatar">{about.founderInitials}</div>
+              <div className="about-avatar-photo">
+                <img src={about.founderPhoto} alt={about.founderName} />
+              </div>
               <div className="about-name">{about.founderName}</div>
               <div className="about-role">{about.founderRole}</div>
               <div className="divider" />

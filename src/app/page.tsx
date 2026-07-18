@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import AnimateIn from '@/components/AnimateIn'
-import { getHomePage, getAllTestimonials, getAllPostFrontmatter } from '@/lib/content'
+import { getHomePage, getSprintPage, getAllTestimonials, getAllPostFrontmatter } from '@/lib/content'
 
 const avatarStyles: Record<string, React.CSSProperties> = {
   crimson: { background: 'rgba(255,69,0,0.15)', color: 'var(--crimson)' },
@@ -10,6 +10,7 @@ const avatarStyles: Record<string, React.CSSProperties> = {
 
 export default function HomePage() {
   const home = getHomePage()
+  const sprint = getSprintPage()
   const testimonials = getAllTestimonials().slice(0, 3)
   const posts = getAllPostFrontmatter().slice(0, 3)
 
@@ -19,26 +20,34 @@ export default function HomePage() {
       <section id="hero">
         <div className="hero-glow" />
         <div className="hero-glow2" />
-        <div style={{ position: 'relative', zIndex: 1 }}>
-          <div className="eyebrow"><span className="eyebrow-dot" />{home.eyebrow}</div>
-          <h1>
-            {home.h1Line1}<br />
-            <span className="cr">{home.h1Line2}</span><br />
-            {home.h1Line3}<br />
-            <span className="grad">{home.h1Line4}</span>
-          </h1>
-          <p className="hero-sub">{home.subtitle}</p>
-          <div className="cta-row">
-            <Link href="/contact" className="btn-fire">{home.ctaPrimary}</Link>
-            <Link href="/reclaim-sprint" className="btn-ghost">{home.ctaSecondary} →</Link>
+        <div className="hero-with-photo">
+          <div>
+            <div className="eyebrow"><span className="eyebrow-dot" />{home.eyebrow}</div>
+            <h1>
+              {home.h1Line1}<br />
+              <span className="cr">{home.h1Line2}</span><br />
+              {home.h1Line3}<br />
+              <span className="grad">{home.h1Line4}</span>
+            </h1>
+            <p className="hero-sub">{home.subtitle}</p>
+            <div className="cta-row">
+              <Link href="/contact" className="btn-fire">{home.ctaPrimary}</Link>
+              <Link href="/true-self-unpack" className="btn-ghost">{home.ctaSecondary} →</Link>
+            </div>
+            <div className="stats-bar">
+              {home.stats.map(s => (
+                <div key={s.label}>
+                  <div className="stat-val">{s.value}</div>
+                  <div className="stat-lbl">{s.label}</div>
+                </div>
+              ))}
+            </div>
           </div>
-          <div className="stats-bar">
-            {home.stats.map(s => (
-              <div key={s.label}>
-                <div className="stat-val">{s.value}</div>
-                <div className="stat-lbl">{s.label}</div>
-              </div>
-            ))}
+          <div className="hero-photo">
+            <div className="photo-frame">
+              <img src={home.heroImage} alt="Anikesh smiling in front of a wall of client video calls" />
+            </div>
+            <div className="hero-photo-caption">{home.heroImageCaption}</div>
           </div>
         </div>
         <div className="scroll-hint"><div className="scroll-line" />Scroll to explore</div>
@@ -50,14 +59,14 @@ export default function HomePage() {
           <div className="s-tag">Signature Program</div>
           <div className="sprint-wrapper">
             <div>
-              <div className="sprint-badge">The Reclaim Sprint</div>
-              <h2 className="sprint-name">From Stuck<br />to Unstoppable.<br />In <span className="cr">6 Weeks.</span></h2>
-              <p className="sprint-desc" style={{ marginBottom: 32 }}>A structured, human-centred 6-week coaching journey that takes you from career confusion to confident action — built on the same design thinking used by the world's best companies.</p>
-              <Link href="/reclaim-sprint" className="btn-fire">Explore The Reclaim Sprint →</Link>
+              <div className="sprint-badge">{sprint.badge}</div>
+              <h2 className="sprint-name">{sprint.headline[0]}<br />{sprint.headline[1]}<br /><span className="cr">{sprint.headline[2]}</span></h2>
+              <p className="sprint-desc" style={{ marginBottom: 32 }}>{sprint.description}</p>
+              <Link href="/true-self-unpack" className="btn-fire">Explore {sprint.badge} →</Link>
             </div>
             <div className="sprint-right">
-              <div className="outcomes-title">What You Will Walk Away With</div>
-              {['Clarity on your purpose, direction, and goals', 'Confidence to make bold decisions', 'Removal of limiting beliefs and emotional blocks', 'A practical roadmap for career or business growth', 'A reclaimed sense of identity and pride'].map((o, i) => (
+              <div className="outcomes-title">{sprint.outcomesTitle}</div>
+              {sprint.outcomes.map((o, i) => (
                 <div key={i} className="outcome-item">
                   <div className="outcome-num">{String(i + 1).padStart(2, '0')}</div>
                   <div className="outcome-text">{o}</div>
@@ -73,7 +82,7 @@ export default function HomePage() {
         <AnimateIn>
           <div className="s-tag">Client Results</div>
           <h2 className="s-title">Real Breakthroughs.<br />Real People.</h2>
-          <p className="s-sub">The Reclaim Sprint works because it's built on lived experience, not theory.</p>
+          <p className="s-sub">{sprint.badge} works because it's built on lived experience, not theory.</p>
         </AnimateIn>
         <AnimateIn>
           <div className="testi-grid">

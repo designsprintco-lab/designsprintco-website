@@ -1,16 +1,18 @@
 {
   "eyebrow": "Career & Leadership Transformation · Melbourne, AU",
-  "h1Line1": "Reclaim Your",
-  "h1Line2": "Identity.",
-  "h1Line3": "Own Your",
-  "h1Line4": "Future.",
-  "subtitle": "For mid-career professionals who feel trapped in the wrong career. We help you break through, rebuild confidence, and step into a career and life you are truly proud of.",
+  "h1Line1": "Reclaim Who",
+  "h1Line2": "You Already Are.",
+  "h1Line3": "Become Who",
+  "h1Line4": "You're Meant To Be.",
+  "subtitle": "For the mid-career professional who already senses there's more — the leader, the earner, the version of you that's been waiting quietly beneath the stress and the stagnation. You don't need to become someone new. You only need to reclaim who you've always been, and build the career and life to finally match.",
   "ctaPrimary": "Book Your Free Discovery Call",
-  "ctaSecondary": "Explore The Reclaim Sprint",
+  "ctaSecondary": "Explore The True Self Unpack",
+  "heroImage": "/images/anikesh-community.jpg",
+  "heroImageCaption": "200+ lives — one wall of the community behind The True Self Unpack",
   "stats": [
     { "value": "200+", "label": "Lives Transformed" },
-    { "value": "94%", "label": "Sprint Completion" },
-    { "value": "6 Wks", "label": "To Breakthrough" },
+    { "value": "94%", "label": "Completion Rate" },
+    { "value": "41", "label": "Traits Profiled" },
     { "value": "4.9★", "label": "Client Satisfaction" }
   ]
 }

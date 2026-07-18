@@ -44,7 +44,7 @@ It requires curiosity before criticism. You have to understand why you made the 
 
 It requires identity before action. You have to know who you are before you can decide what comes next.
 
-This is why the Reclaim Sprint starts with empathy, not execution. Design thinking — applied to the most important project of your life.
+This is why The True Self Unpack starts with empathy, not execution. Design thinking — applied to the most important project of your life.
 
 ## The Permission Slip You Didn't Know You Needed
 

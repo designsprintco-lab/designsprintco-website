@@ -23,6 +23,8 @@ export interface HomeContent {
   subtitle: string
   ctaPrimary: string
   ctaSecondary: string
+  heroImage: string
+  heroImageCaption: string
   stats: Stat[]
 }
 
@@ -43,6 +45,7 @@ export interface FrameworkContent {
   positioning: PositioningCell[]
   archetype: { title: string; text: string }
   pillars: FrameworkPillar[]
+  sessionImage: string
 }
 
 export interface SprintContent {
@@ -50,6 +53,7 @@ export interface SprintContent {
   headline: string[]
   duration: string
   description: string
+  image: string
   forYouIf: string[]
   outcomesTitle: string
   outcomes: string[]
@@ -69,6 +73,7 @@ export interface VoiceWord {
 
 export interface AboutContent {
   founderInitials: string
+  founderPhoto: string
   founderName: string
   founderRole: string
   chips: string[]

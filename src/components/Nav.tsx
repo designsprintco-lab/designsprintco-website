@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react'
 const LINKS = [
   { href: '/', label: 'Home' },
   { href: '/framework', label: 'Framework' },
-  { href: '/reclaim-sprint', label: 'The Reclaim Sprint' },
+  { href: '/true-self-unpack', label: 'The True Self Unpack' },
   { href: '/about', label: 'About' },
   { href: '/testimonials', label: 'Results' },
   { href: '/blog', label: 'Insights' },

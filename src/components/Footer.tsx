@@ -13,7 +13,7 @@ export default function Footer({ settings }: { settings: SiteSettings }) {
         <div className="ft-col">
           <h5>Programs</h5>
           <ul>
-            <li><Link href="/reclaim-sprint">The Reclaim Sprint</Link></li>
+            <li><Link href="/true-self-unpack">The True Self Unpack</Link></li>
             <li><Link href="/framework">Our Framework</Link></li>
             <li><Link href="/contact">Corporate Coaching</Link></li>
           </ul>

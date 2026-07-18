@@ -56,6 +56,8 @@ collections:
           - { label: Subtitle / Subheading, name: subtitle, widget: text }
           - { label: Primary CTA Button, name: ctaPrimary, widget: string }
           - { label: Secondary CTA Button, name: ctaSecondary, widget: string }
+          - { label: Hero Photo, name: heroImage, widget: image }
+          - { label: Hero Photo Caption, name: heroImageCaption, widget: string }
           - label: Stats Bar
             name: stats
             widget: list
@@ -92,9 +94,10 @@ collections:
                 name: items
                 widget: list
                 field: { label: Item, name: item, widget: string }
+          - { label: Session Photo, name: sessionImage, widget: image }
 
       - name: sprint
-        label: Reclaim Sprint Page
+        label: True Self Unpack Page
         file: content/pages/sprint.json
         format: json
         fields:
@@ -103,9 +106,10 @@ collections:
             name: headline
             widget: list
             field: { label: Line, name: line, widget: string }
-          - { label: Duration Info, name: duration, widget: string }
+          - { label: "Phase Pathway (no fixed duration)", name: duration, widget: string }
           - { label: Description, name: description, widget: text }
-          - label: "This Sprint Is For You If... (bullets)"
+          - { label: Photo, name: image, widget: image }
+          - label: "This Is For You If... (bullets)"
             name: forYouIf
             widget: list
             field: { label: Point, name: point, widget: string }
@@ -121,7 +125,8 @@ collections:
         file: content/pages/about.json
         format: json
         fields:
-          - { label: Founder Initials, name: founderInitials, widget: string }
+          - { label: Founder Initials (fallback), name: founderInitials, widget: string }
+          - { label: Founder Photo, name: founderPhoto, widget: image }
           - { label: Founder Name, name: founderName, widget: string }
           - { label: Founder Role, name: founderRole, widget: string }
           - label: Credential Chips

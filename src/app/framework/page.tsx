@@ -5,7 +5,7 @@ import { getFrameworkPage } from '@/lib/content'
 
 export const metadata: Metadata = {
   title: 'The DSCo Framework',
-  description: 'Design thinking applied to career transformation. Desirability, Viability, Feasibility — the human-centred framework behind every Reclaim Sprint.',
+  description: 'Design thinking applied to career transformation. Desirability, Viability, Feasibility — the human-centred framework behind The True Self Unpack.',
 }
 
 const subtitleColors = ['var(--crimson)', 'var(--amber)', 'var(--gold)']
@@ -49,7 +49,7 @@ export default function FrameworkPage() {
         <AnimateIn>
           <div className="s-tag">The DVF Model</div>
           <h2 className="s-title">Three Pillars.<br />One Transformation.</h2>
-          <p className="s-sub">Every Reclaim Sprint is built on these three foundations — applied in sequence, with intention.</p>
+          <p className="s-sub">The True Self Unpack is built on these three foundations — applied in sequence, with intention.</p>
         </AnimateIn>
         <AnimateIn>
           <div className="fw-grid">
@@ -65,6 +65,11 @@ export default function FrameworkPage() {
                 </ul>
               </div>
             ))}
+          </div>
+          <div className="section-photo">
+            <div className="photo-frame">
+              <img src={fw.sessionImage} alt="Anikesh laughing while facilitating a workshop at a whiteboard, audience applauding" />
+            </div>
           </div>
         </AnimateIn>
       </section>

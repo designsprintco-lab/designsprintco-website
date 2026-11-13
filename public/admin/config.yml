@@ -16,6 +16,7 @@ backend:
 #   name: git-gateway
 # local_backend: true
 
+site_url: https://www.designsprintco.com
 media_folder: public/images
 public_folder: /images
 
@@ -181,7 +182,7 @@ collections:
             name: interestOptions
             widget: list
             field: { label: Option, name: option, widget: string }
-          - { label: "Web3Forms Access Key (get free key at web3forms.com)", name: web3formsKey, widget: string }
+          - { label: "Form submissions go to this email", name: formRecipient, widget: string }
 
 # ── Testimonials ──────────────────────────────────────────────────────────────
   - name: testimonials

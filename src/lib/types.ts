@@ -99,7 +99,7 @@ export interface ContactContent {
   formSubtitle: string
   formNote: string
   interestOptions: string[]
-  web3formsKey: string
+  formRecipient: string
 }
 
 export interface Testimonial {

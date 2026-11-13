@@ -5,6 +5,7 @@ import Footer from '@/components/Footer'
 import { getSettings } from '@/lib/content'
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.designsprintco.com'),
   title: { default: 'DesignSprintCo — Transforming Life, One Sprint at a Time', template: '%s | DesignSprintCo' },
   description: 'Career transformation coaching for mid-career professionals. Built on design thinking, lived experience, and championship energy. Melbourne & Remote.',
   icons: {

@@ -14,19 +14,21 @@ export default function ContactForm({ content }: { content: ContactContent }) {
     e.preventDefault()
     setStatus('sending')
     try {
-      const res = await fetch('https://api.web3forms.com/submit', {
+      const res = await fetch(`https://formsubmit.co/ajax/${content.formRecipient}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify({
-          access_key: content.web3formsKey,
+          _subject: `Discovery Call Request: ${form.interest}`,
+          _template: 'table',
+          _captcha: 'false',
           name: `${form.firstName} ${form.lastName}`,
           email: form.email,
-          subject: `Discovery Call Request: ${form.interest}`,
+          interest: form.interest,
           message: form.message,
         }),
       })
       const data = await res.json()
-      setStatus(data.success ? 'success' : 'error')
+      setStatus(res.ok && String(data.success) === 'true' ? 'success' : 'error')
     } catch {
       setStatus('error')
     }

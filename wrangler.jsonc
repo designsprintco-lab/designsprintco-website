@@ -1,10 +1,6 @@
 {
   "name": "designsprintco-website",
   "compatibility_date": "2025-01-01",
-  "routes": [
-    { "pattern": "www.designsprintco.com", "custom_domain": true },
-    { "pattern": "designsprintco.com", "custom_domain": true }
-  ],
   "assets": {
     "directory": "./out",
     "not_found_handling": "404-page"
